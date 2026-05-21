@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Shop">
+  <grid id="27dc6" binding="bustShop" layout-manager="GridLayoutManager" row-count="10" column-count="20" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="100"/>
+    <constraints>
+      <xy x="20" y="20" width="1200" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="19bbb">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d409a" class="javax.swing.JLabel" binding="levelLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="SELECT BUST LEVEL:"/>
+        </properties>
+      </component>
+      <component id="23239" class="javax.swing.JButton" binding="baseButton">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="50"/>
+            <preferred-size width="150" height="50"/>
+            <maximum-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="BASE"/>
+        </properties>
+      </component>
+      <component id="3f443" class="javax.swing.JButton" binding="silverButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="50"/>
+            <preferred-size width="150" height="55"/>
+            <maximum-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="SILVER"/>
+        </properties>
+      </component>
+      <component id="7fb1a" class="javax.swing.JButton" binding="goldButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="50"/>
+            <preferred-size width="150" height="50"/>
+            <maximum-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="GOLD"/>
+        </properties>
+      </component>
+      <component id="8c783" class="javax.swing.JLabel" binding="follower">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Follower"/>
+        </properties>
+      </component>
+      <component id="78bf7" class="javax.swing.JLabel" binding="price">
+        <constraints>
+          <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Price"/>
+        </properties>
+      </component>
+      <component id="59ab6" class="javax.swing.JLabel" binding="priceCount">
+        <constraints>
+          <grid row="2" column="11" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="31f87">
+        <constraints>
+          <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="7ff3" class="javax.swing.JLabel" binding="country">
+        <constraints>
+          <grid row="1" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Country"/>
+        </properties>
+      </component>
+      <hspacer id="6c5fc">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a1862">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="efd05">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="8cf2c">
+        <constraints>
+          <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="d565c">
+        <constraints>
+          <grid row="1" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="a458" class="javax.swing.JLabel" binding="count">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="HOW MUCH DO YOU WANT TO BUY?"/>
+        </properties>
+      </component>
+      <component id="3637d" class="javax.swing.JTextField" binding="countField">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="62a95" class="javax.swing.JLabel" binding="startLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="DialogInput" size="26" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BUST SHOP"/>
+        </properties>
+      </component>
+      <hspacer id="334c3">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="669b3">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6d644">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="2112f" class="javax.swing.JComboBox" binding="countryBox" custom-create="true">
+        <constraints>
+          <grid row="2" column="15" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e5c18" class="javax.swing.JLabel" binding="ageLabel">
+        <constraints>
+          <grid row="1" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Age  Group"/>
+        </properties>
+      </component>
+      <hspacer id="de64d">
+        <constraints>
+          <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6fd84">
+        <constraints>
+          <grid row="1" column="17" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="caf50">
+        <constraints>
+          <grid row="1" column="18" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="cc33b" class="javax.swing.JComboBox" binding="ageBox" custom-create="true">
+        <constraints>
+          <grid row="2" column="19" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f75c7" class="javax.swing.JButton" binding="buyButton">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BUY"/>
+        </properties>
+      </component>
+      <component id="6e1e3" class="javax.swing.JLabel" binding="followerTotal">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Follower Total"/>
+        </properties>
+      </component>
+      <component id="b46f7" class="javax.swing.JLabel" binding="priceTotal">
+        <constraints>
+          <grid row="8" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Price Total"/>
+        </properties>
+      </component>
+      <component id="37057" class="javax.swing.JLabel" binding="totalFollower">
+        <constraints>
+          <grid row="8" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ca825" class="javax.swing.JLabel" binding="totalPrice">
+        <constraints>
+          <grid row="8" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="d8c0b">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="89b49" class="javax.swing.JLabel" binding="followerCount">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
